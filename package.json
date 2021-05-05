@@ -1,0 +1,16 @@
+{
+  "name": "jointocreatebot",
+  "version": "1.0.0",
+  "description": "voice bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "初心#0002",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "discord.js": "^12.5.3",
+    "node.js": "0.0.1-security"
+  }
+}
