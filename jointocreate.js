@@ -113,7 +113,7 @@ module.exports = function (client) {
         await vc.overwritePermissions([
           {
             id: user.id,
-            allow: ['MANAGE_CHANNELS','SPEAK','USE_VAD','CONNECT','VIEW_CHANNEL','MUTE_MEMBERS','DEAFEN_MEMBERS','MOVE_MEMBERS'],
+            allow: ['MANAGE_CHANNELS','SPEAK','USE_VAD','CONNECT','VIEW_CHANNEL','MUTE_MEMBERS','DEAFEN_MEMBERS','MOVE_MEMBERS','STREAM'],
           },
           {
             id: user.guild.id,
